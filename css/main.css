@@ -66,6 +66,17 @@ html {
 /**
  * =============
  * Write your “prefers” media queries here, between these two `stylelint` comments.
+
+ @media (prefers-color-scheme: dark) {
+   .banner {
+     background-color: #111;
+   }
+
+  @media (prefers-reduced-motion) {
+   .gear {
+     animation: none;
+   }
+
  * Unfortunately, Markbot, is a little too old to understand them. :(
  * =============
  */
